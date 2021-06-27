@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Ecommerce Test Suite" duration-ms="38271" started-at="2021-06-27T15:27:42 UTC" finished-at="2021-06-27T15:28:20 UTC">
+    <groups>
+    </groups>
+    <test name="AmazonTest" duration-ms="14848" started-at="2021-06-27T15:27:42 UTC" finished-at="2021-06-27T15:27:57 UTC">
+      <class name="com.ecom.webapp.amazon.AmazonHomepageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecom.webapp.amazon.AmazonHomepageTest@2833cc44]" test-instance-name="Amazon Homepage Test" name="setUp" is-config="true" duration-ms="3036" started-at="2021-06-27T15:27:42 UTC" finished-at="2021-06-27T15:27:45 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testForAmazonHomepage()[pri:0, instance:com.ecom.webapp.amazon.AmazonHomepageTest@2833cc44]" test-instance-name="Amazon Homepage Test" name="testForAmazonHomepage" duration-ms="54" started-at="2021-06-27T15:27:45 UTC" finished-at="2021-06-27T15:27:45 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForAmazonHomepage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecom.webapp.amazon.AmazonHomepageTest@2833cc44]" test-instance-name="Amazon Homepage Test" name="tearDown" is-config="true" duration-ms="165" started-at="2021-06-27T15:27:45 UTC" finished-at="2021-06-27T15:27:45 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ecom.webapp.amazon.AmazonHomepageTest@2833cc44]" test-instance-name="Amazon Homepage Test" name="setUp" is-config="true" duration-ms="2303" started-at="2021-06-27T15:27:45 UTC" finished-at="2021-06-27T15:27:48 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testForAmazonSourceURL()[pri:0, instance:com.ecom.webapp.amazon.AmazonHomepageTest@2833cc44]" test-instance-name="Amazon Homepage Test" name="testForAmazonSourceURL" duration-ms="65" started-at="2021-06-27T15:27:48 UTC" finished-at="2021-06-27T15:27:48 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForAmazonSourceURL -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ecom.webapp.amazon.AmazonHomepageTest@2833cc44]" test-instance-name="Amazon Homepage Test" name="tearDown" is-config="true" duration-ms="170" started-at="2021-06-27T15:27:48 UTC" finished-at="2021-06-27T15:27:48 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ecom.webapp.amazon.AmazonHomepageTest -->
+      <class name="com.ecom.webapp.amazon.AmazoNavLinkTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ecom.webapp.amazon.AmazoNavLinkTest@307f6b8c]" name="beforeMethod" is-config="true" duration-ms="2253" started-at="2021-06-27T15:27:48 UTC" finished-at="2021-06-27T15:27:50 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testFashionLinkNavigation()[pri:0, instance:com.ecom.webapp.amazon.AmazoNavLinkTest@307f6b8c]" name="testFashionLinkNavigation" duration-ms="2048" started-at="2021-06-27T15:27:50 UTC" finished-at="2021-06-27T15:27:52 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFashionLinkNavigation -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.ecom.webapp.amazon.AmazoNavLinkTest@307f6b8c]" name="afterMethod" is-config="true" duration-ms="121" started-at="2021-06-27T15:27:52 UTC" finished-at="2021-06-27T15:27:52 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ecom.webapp.amazon.AmazoNavLinkTest@307f6b8c]" name="beforeMethod" is-config="true" duration-ms="2559" started-at="2021-06-27T15:27:52 UTC" finished-at="2021-06-27T15:27:55 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testMobileLinkNavigation()[pri:0, instance:com.ecom.webapp.amazon.AmazoNavLinkTest@307f6b8c]" name="testMobileLinkNavigation" duration-ms="1887" started-at="2021-06-27T15:27:55 UTC" finished-at="2021-06-27T15:27:57 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMobileLinkNavigation -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.ecom.webapp.amazon.AmazoNavLinkTest@307f6b8c]" name="afterMethod" is-config="true" duration-ms="138" started-at="2021-06-27T15:27:57 UTC" finished-at="2021-06-27T15:27:57 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.ecom.webapp.amazon.AmazoNavLinkTest -->
+    </test> <!-- AmazonTest -->
+    <test name="FacebookTest" duration-ms="23399" started-at="2021-06-27T15:27:57 UTC" finished-at="2021-06-27T15:28:20 UTC">
+      <class name="com.ecom.webapp.facebook.FacebookLoginTest">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.ecom.webapp.facebook.FacebookLoginTest@670b40af]" name="beforeMethod" is-config="true" duration-ms="1735" started-at="2021-06-27T15:27:57 UTC" finished-at="2021-06-27T15:27:59 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="invalidUserCredsTest()[pri:0, instance:com.ecom.webapp.facebook.FacebookLoginTest@670b40af]" name="invalidUserCredsTest" duration-ms="21547" started-at="2021-06-27T15:27:59 UTC" finished-at="2021-06-27T15:28:20 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidUserCredsTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.ecom.webapp.facebook.FacebookLoginTest@670b40af]" name="afterMethod" is-config="true" duration-ms="115" started-at="2021-06-27T15:28:20 UTC" finished-at="2021-06-27T15:28:20 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.ecom.webapp.facebook.FacebookLoginTest -->
+    </test> <!-- FacebookTest -->
+  </suite> <!-- Ecommerce Test Suite -->
+</testng-results>
