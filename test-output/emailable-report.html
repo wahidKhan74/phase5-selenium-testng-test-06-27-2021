@@ -8,67 +8,26 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="8">Default suite</th></tr>
-<tr><td><a href="#t0">Default test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">17,194</td><td></td><td></td></tr>
+<tr><th colspan="8">Ecommerce Test Suite</th></tr>
+<tr><td><a href="#t0">AmazonTest</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">17,125</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">FacebookTest</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">24,781</td><td></td><td></td></tr>
+<tr><td><a href="#t2">GroupTest</a></td><td class="num">6</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">7,287</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">11</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">49,193</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Default test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.ecom.webapp.BrowserGroupTest</td><td><a href="#m0">testFaceLoginPage</a></td><td rowspan="1">1624813056965</td><td rowspan="1">10240</td></tr><tr><th colspan="4">Default test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="5">com.ecom.webapp.BrowserGroupTest</td><td><a href="#m1">lauchChromeTest</a></td><td rowspan="1">1624813050065</td><td rowspan="1">2791</td></tr><tr class="passedeven"><td><a href="#m2">lauchFirefoxTest</a></td><td rowspan="1">1624813052861</td><td rowspan="1">3902</td></tr><tr class="passedeven"><td><a href="#m3">testAmazonHomePageTitle</a></td><td rowspan="1">1624813056767</td><td rowspan="1">17</td></tr><tr class="passedeven"><td><a href="#m4">testAmazonSourceURL</a></td><td rowspan="1">1624813056817</td><td rowspan="1">145</td></tr><tr class="passedeven"><td><a href="#m5">testFaceBookHomePage</a></td><td rowspan="1">1624813056786</td><td rowspan="1">29</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Ecommerce Test Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">AmazonTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.ecom.webapp.amazon.AmazoNavLinkTest</td><td><a href="#m0">testFashionLinkNavigation</a></td><td rowspan="1">1624814639731</td><td rowspan="1">1856</td></tr><tr class="passedeven"><td><a href="#m1">testMobileLinkNavigation</a></td><td rowspan="1">1624814644849</td><td rowspan="1">2026</td></tr><tr class="passedodd"><td rowspan="2">com.ecom.webapp.amazon.AmazonHomepageTest</td><td><a href="#m2">testForAmazonHomepage</a></td><td rowspan="1">1624814633748</td><td rowspan="1">37</td></tr><tr class="passedodd"><td><a href="#m3">testForAmazonSourceURL</a></td><td rowspan="1">1624814636747</td><td rowspan="1">188</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">FacebookTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.ecom.webapp.facebook.FacebookLoginTest</td><td><a href="#m4">invalidUserCredsTest</a></td><td rowspan="1">1624814648979</td><td rowspan="1">22760</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">GroupTest &#8212; passed</th></tr><tr class="passedeven"><td rowspan="6">com.ecom.webapp.BrowserGroupTest</td><td><a href="#m5">lauchChromeTest</a></td><td rowspan="1">1624814671862</td><td rowspan="1">2412</td></tr><tr class="passedeven"><td><a href="#m6">lauchFirefoxTest</a></td><td rowspan="1">1624814674275</td><td rowspan="1">3781</td></tr><tr class="passedeven"><td><a href="#m7">testAmazonHomePageTitle</a></td><td rowspan="1">1624814678058</td><td rowspan="1">18</td></tr><tr class="passedeven"><td><a href="#m8">testAmazonSourceURL</a></td><td rowspan="1">1624814678126</td><td rowspan="1">130</td></tr><tr class="passedeven"><td><a href="#m9">testFaceBookHomePage</a></td><td rowspan="1">1624814678080</td><td rowspan="1">43</td></tr><tr class="passedeven"><td><a href="#m10">testFaceLoginPage</a></td><td rowspan="1">1624814678257</td><td rowspan="1">889</td></tr></tbody>
 </table>
-<h2>Default test</h2><h3 id="m0">com.ecom.webapp.BrowserGroupTest#testFaceLoginPage</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Unable to locate element: /html/body/div[1]/div[2]/div[1]/div/div[2]/div[2]/form/div[1]/div[2]
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;ip-172-31-32-197&apos;, ip: &apos;172.31.32.197&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-1128-aws&apos;, java.version: &apos;1.8.0_292&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 88.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210415204500, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 7545, moz:profile: /tmp/rust_mozprofile1wbhE0, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.4.0-1128-aws, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 8e278cfc-1220-43b3-9efb-5d3f62fd66dc
-*** Element info: {Using=xpath, value=/html/body/div[1]/div[2]/div[1]/div/div[2]/div[2]/form/div[1]/div[2]}
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
-	at com.ecom.webapp.BrowserGroupTest.testFaceLoginPage(BrowserGroupTest.java:67)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.ArrayList.forEach(ArrayList.java:1259)
-	at org.testng.TestRunner.privateRun(TestRunner.java:794)
-	at org.testng.TestRunner.run(TestRunner.java:596)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-	at org.testng.TestNG.runSuites(TestNG.java:1063)
-	at org.testng.TestNG.run(TestNG.java:1031)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.ecom.webapp.BrowserGroupTest#lauchChromeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.ecom.webapp.BrowserGroupTest#lauchFirefoxTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.ecom.webapp.BrowserGroupTest#testAmazonHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.ecom.webapp.BrowserGroupTest#testAmazonSourceURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">com.ecom.webapp.BrowserGroupTest#testFaceBookHomePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>AmazonTest</h2><h3 id="m0">com.ecom.webapp.amazon.AmazoNavLinkTest#testFashionLinkNavigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.ecom.webapp.amazon.AmazoNavLinkTest#testMobileLinkNavigation</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.ecom.webapp.amazon.AmazonHomepageTest#testForAmazonHomepage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.ecom.webapp.amazon.AmazonHomepageTest#testForAmazonSourceURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>FacebookTest</h2><h3 id="m4">com.ecom.webapp.facebook.FacebookLoginTest#invalidUserCredsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>GroupTest</h2><h3 id="m5">com.ecom.webapp.BrowserGroupTest#lauchChromeTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.ecom.webapp.BrowserGroupTest#lauchFirefoxTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.ecom.webapp.BrowserGroupTest#testAmazonHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.ecom.webapp.BrowserGroupTest#testAmazonSourceURL</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.ecom.webapp.BrowserGroupTest#testFaceBookHomePage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.ecom.webapp.BrowserGroupTest#testFaceLoginPage</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

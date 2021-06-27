@@ -10,8 +10,7 @@
 		<classes>
 			<class name="com.ecom.webapp.facebook.FacebookLoginTest"></class>
 		</classes>
-	</test>
-	
+	</test>	
 	<test name="GroupTest">
 		<classes>
 			<class name="com.ecom.webapp.BrowserGroupTest"></class>
