@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ecom.webapp.AmazonHomepageTest">
+      <class name="com.ecom.webapp.BrowserGroupTest">
         <methods>
-          <include name="setUp"/>
-          <include name="testForHomepage"/>
+          <include name="lauchFirefoxTest"/>
+          <include name="testFaceLoginPage"/>
         </methods>
-      </class> <!-- com.ecom.webapp.AmazonHomepageTest -->
+      </class> <!-- com.ecom.webapp.BrowserGroupTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
